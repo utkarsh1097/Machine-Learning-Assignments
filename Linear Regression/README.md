@@ -1,4 +1,4 @@
-#Assignment 1 - Linear Regression
+# Assignment 1 - Linear Regression
 
 Given the audio features of a song, we will predict its year of release. 
 
