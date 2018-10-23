@@ -1,4 +1,4 @@
-# Assignment 2 - Neural Networks
+# Assignment 2(a) - Neural Networks
 
 We will build a neural network from scratch and train it to classify Devanagari Handwritten Characters. The dataset consists of grayscale images of size 32x32. Each image can be classified into 46 different classes - 36 Devanagari characters and 10 Devanagari numerals. The training set consists of 78200 training examples.
 
