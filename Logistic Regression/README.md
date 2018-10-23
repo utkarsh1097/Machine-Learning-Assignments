@@ -1,4 +1,4 @@
-# Assignment 2 - Logistic Regression
+# Assignment 1(b) - Logistic Regression
 
 Given the movie reviews from IMDb, build a binary text classifier to classify them into a '0' (Negative) and '1' (Positive) review. We use a pre-defined bag of words.
 
