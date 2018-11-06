@@ -189,7 +189,7 @@ def exact_line_search(lambd_list, X_data, Y_data, M_data, N_data, alpha, batch_s
 				while(True):
 					mid_alpha = (low_alpha+high_alpha)/2
 					cur_derivative = derivative_f(mid_alpha, d, X_train_batch, pred_error)
-					if(abs(cur_derivative) < 0.0001):	#tolerance
+					if(abs(cur_derivative) < 0.1):	#tolerance
 						use_alpha = mid_alpha
 						break
 					else:
@@ -302,7 +302,7 @@ def pred_exact_line_search(best_lambd, X_data, Y_data, X_test, M_data, alpha, ba
 		while(True):
 			mid_alpha = (low_alpha+high_alpha)/2
 			cur_derivative = derivative_f(mid_alpha, d, X_data_batch, pred_error)
-			if(abs(cur_derivative) < 0.0001):	#tolerance
+			if(abs(cur_derivative) < 0.1):	#tolerance
 				use_alpha = mid_alpha
 				break
 			else:
