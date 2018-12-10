@@ -4,6 +4,8 @@ We will build a neural network from scratch and train it to classify Devanagari 
 
 The dataset was created by Shailesh Acharya and Prashnna Kumar Gyawali using extraction and manual annotation of thousands of characters from handwritten documents. More information can be found at https://archive.ics.uci.edu/ml/datasets/Devanagari+Handwritten+Character+Dataset 
 
+A Convolutional Neural Network was also trained for this problem. Link: [click here](https://github.com/utkarsh1097/Machine-Learning-Assignments/tree/master/Convolutional%20Neural%20Networks)
+
 TODO: 
 	- 1. Add instructions on how to execute
 	- 2. Add dataset on which experiments were done
